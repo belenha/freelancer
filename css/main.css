@@ -1,3 +1,87 @@
 /*
  * Estilos de tu proyecto
  */
+
+ body{
+    margin: 0;
+}
+
+a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav{
+   background-color: #2C3E50;
+   height: 12%;
+   width: 100%;
+}
+
+.menu{
+    padding: 2em;
+    width: 49%;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    left: 8%;
+}
+
+.menu a {
+   margin-right: 15px;
+   border: 1px;
+   padding: 15px;
+   font-size: 1em;
+   border-radius: 10px;
+  }
+
+.menu a:hover {
+   color: #18bc9c;
+}
+
+.principal {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 1em;
+    font-size: 2em;
+    width: 50%;
+    position: relative;
+    left: 20%;
+}
+
+header{
+    background-color: #29BB9C;
+    height: 675px;
+    width: 100%;
+}
+
+img{
+    padding-top: 90px;
+    padding-left: 40%;
+    position: relative;
+}
+
+hr{
+    border: 2px solid white;
+    width: 15em;
+}
+
+h1{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+i{
+    font-size: 2em;
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+i::before{
+    content: hr;
+}
