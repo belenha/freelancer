@@ -65,6 +65,7 @@ img{
 hr{
     border: 2px solid white;
     width: 15em;
+    display: inline-block;
 }
 
 h1{
@@ -75,13 +76,12 @@ h1{
     text-transform: uppercase;
 }
 
-i{
-    font-size: 2em;
-    position: absolute;
-    text-align: center;
+p{
     color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;;
+    text-align: center;
 }
-
-i::before{
-    content: hr;
+i{
+    color: #FFFFFF;
+    text-align: center;
 }
