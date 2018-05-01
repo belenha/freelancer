@@ -1,3 +1,129 @@
 /*
  * Estilos de tu proyecto
  */
+
+ body{
+     margin: 0;
+ }
+
+ a{
+     color: white;
+     font-family: 'Montserrat', sans-serif;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+
+ nav{
+    background-color: #2C3E50;
+    height: 100px;
+    width: 100%;
+ }
+
+ .menu{
+     padding: 2em;
+     width: 49%;
+     position: relative;
+     display: inline-block;
+     box-sizing: border-box;
+     left: 15%;
+ }
+
+ .menu a {
+    margin-right: 15px;
+    border: 1px;
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 10px;
+   }
+
+ .menu a:hover {
+    color: #18bc9c;
+}
+
+ .principal {
+     box-sizing: border-box;
+     display: inline-block;
+     padding: 1.5em;
+     font-size: 25px;
+     width: 50%;
+     position: relative;
+     left: 5%;
+ }
+
+.content{
+    text-align: center;
+}
+
+ header{
+     background-color: #18BC9C;
+     box-sizing: border-box;
+ }
+
+ img{
+    padding-top: 90px;
+    position: relative;
+}
+
+#whiteline{
+    border: 2px solid white;
+    display: inline-block;
+    text-align: center;
+    width: 130px;
+}
+
+h1{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 1.7em;
+    margin: 0;
+    position: relative;
+    top: -10px;
+}
+i{
+    color: #FFFFFF;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.title{
+    text-align: center;
+}
+.title h1{
+    color: #2C3E50;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title i{
+    color: #2C3E50;
+}
+
+#blueline{
+    border: 2px solid #2C3E50;
+    display: inline-block;
+    text-align: center;
+    width: 130px;
+}
+/* se le da estilo a las imágenes*/
+.pictures{
+    margin-left: 6em;
+    min-width: 88%;
+    position: relative;
+    padding: 2px;
+}
+#images > img{
+    float: left;
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    margin-top: 10px;
+    padding: 0;
+}
