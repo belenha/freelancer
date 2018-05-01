@@ -100,6 +100,7 @@ i{
 .title h1{
     color: #2C3E50;
     font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
 }
 
 .title i{
@@ -126,4 +127,124 @@ i{
     margin: 10px;
     margin-top: 10px;
     padding: 0;
+}
+/* Seccion about*/
+
+#about{
+    background-color: #18BC9C;
+    box-sizing: border-box;
+    margin-top: 700px;
+    height: 500px;
+    text-align: center;
+}
+
+#about > h2{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    top: 50px;
+}
+#whiteline2{
+    border: 2px solid white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 80px;
+    width: 130px;
+}
+#parrafos{
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    width: 100%;
+}
+
+.textleft{
+    width: 49%;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: left;
+    left: 20%;
+}
+
+.textright{
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: left;
+    top: -64px;
+    left: 25px;
+}
+
+/*Sección contact me*/
+
+.contact h1{
+    color: #2C3E50;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+}
+
+input[type=text]{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    color: gray;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    height: 3em;
+    width: 100%;
+}
+
+#formulario{
+    left:20%;
+    position: relative;
+    top: 0;
+    min-height: fit-content;
+    width: 65%;
+}
+
+.button{
+    border-radius: 10%;
+    border-width: 2px;
+    border: 1px transparent;
+    box-sizing: border-box;
+    background-color: #18BC9C;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 1em 1.5em;
+    left: 20%;
+    position: relative;
+    top: 20px;
+}
+
+/*sección final, footer*/
+.final{
+    background-color: #2C3E50;
+    margin-top: 100px;
+}
+.top h3{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+.top p{
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+}
+.location{
+    display: inline;
+    text-align: left;
+}
+.iconos{
+    display: inline;
+    text-align: center;
+}
+.abofree{
+    display: inline;
+    text-align: right;
 }
