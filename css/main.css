@@ -57,6 +57,7 @@
  header{
      background-color: #18BC9C;
      box-sizing: border-box;
+     height: 700px;
  }
 
  img{
@@ -133,7 +134,7 @@ i{
 #about{
     background-color: #18BC9C;
     box-sizing: border-box;
-    margin-top: 700px;
+    margin-top: 900px;
     height: 500px;
     text-align: center;
 }
@@ -167,7 +168,7 @@ i{
     display: inline-block;
     box-sizing: border-box;
     text-align: left;
-    left: 20%;
+    left: 28%;
 }
 
 .textright{
@@ -227,6 +228,7 @@ input[type=text]{
 .final{
     background-color: #2C3E50;
     margin-top: 100px;
+    height: 300px;
 }
 .top h3{
     color: #FFFFFF;
@@ -236,15 +238,41 @@ input[type=text]{
     color: #FFFFFF;
     font-family: 'Lato', sans-serif;
 }
-.location{
-    display: inline;
-    text-align: left;
+.final .top{
+    display: inline-block;
+    left: 27%;
+    position: relative;
 }
-.iconos{
-    display: inline;
+
+.top .location{
+    margin 0;
+    padding: 0px 55px;
+    display: inline-block;
+    position: relative;
     text-align: center;
 }
-.abofree{
-    display: inline;
-    text-align: right;
+
+.top .iconos{
+    margin 0;
+    padding: 0px 55px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.iconos i{
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.top .abofree{
+    margin 0;
+    padding: 0px 55px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.abofree p span{
+    color: #18BC9C;
 }
