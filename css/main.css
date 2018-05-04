@@ -5,7 +5,7 @@
  body{
      margin: 0;
  }
-
+/* barra de navegación*/
  a{
      color: white;
      font-family: 'Montserrat', sans-serif;
@@ -39,7 +39,7 @@
  .menu a:hover {
     color: #18bc9c;
 }
-
+/* header*/
  .principal {
      box-sizing: border-box;
      display: inline-block;
@@ -114,7 +114,7 @@ i{
     text-align: center;
     width: 130px;
 }
-/* se le da estilo a las imágenes*/
+/* imágenes */
 .pictures{
     margin-left: 6em;
     min-width: 88%;
@@ -189,7 +189,7 @@ i{
     font-size: 3em;
 }
 
-input[type=text]{
+input[type=text], textarea{
     border: none;
     border-bottom: 1px solid lightgray;
     color: gray;
@@ -197,11 +197,16 @@ input[type=text]{
     font-family: 'Lato', sans-serif;
     font-size: 1.5em;
     height: 3em;
-    width: 100%;
+    width: 50%;
+}
+
+textarea{
+    resize: vertical;
+    max-height: 250px;
 }
 
 #formulario{
-    left:20%;
+    left: 35%;
     position: relative;
     top: 0;
     min-height: fit-content;
@@ -219,7 +224,7 @@ input[type=text]{
     font-size: 1.25em;
     font-weight: bold;
     padding: 1em 1.5em;
-    left: 20%;
+    left: 35%;
     position: relative;
     top: 20px;
 }
@@ -228,19 +233,19 @@ input[type=text]{
 .final{
     background-color: #2C3E50;
     margin-top: 100px;
-    height: 300px;
+    height: 250px;
 }
 .top h3{
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
 }
-.top p{
+.final p{
     color: #FFFFFF;
     font-family: 'Lato', sans-serif;
 }
 .final .top{
     display: inline-block;
-    left: 27%;
+    left: 26%;
     position: relative;
 }
 
@@ -275,4 +280,9 @@ input[type=text]{
 }
 .abofree p span{
     color: #18BC9C;
+}
+
+.bottom .copy > p{
+    text-align: center;
+    margin-top: 65px;
 }
